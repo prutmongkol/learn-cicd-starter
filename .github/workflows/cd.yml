@@ -33,4 +33,4 @@ jobs:
         run: 'gcloud info'
 
       - name: Build Docker image
-        run: gcloud builds submit --tag us-central1-docker.pkg.dev/notely-462913/notely-ar-repo:$GITHUB_SHA .
+        run: gcloud builds submit --tag us-central1-docker.pkg.dev/notely-462913/notely-ar-repo/notely:latest .
